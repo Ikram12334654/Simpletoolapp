@@ -1,0 +1,576 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab");
+/* privacy policies code */
+.privacy_headings{
+font-size: xx-large;
+text-align: center;
+justify-content: center;
+font-weight: 750;
+
+}
+button{
+  margin-top: 5px;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  z-index: 1;
+  border: 0;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: x-large;
+  position: relative;
+ 
+}
+
+.aboutusb{
+  background-color: rgb(255, 255, 255);
+  color: rgb(8, 71, 205);
+ transition:  transform 0.5s ease;
+  
+}
+.aboutusb:hover{
+ transform: scale(1.1);
+
+}
+.portfoliob{
+  background-color: rgb(8, 71, 205);
+  color: rgb(255, 255, 255);
+  margin-left: 15px;
+  transition:  transform 0.5s ease;
+ 
+}
+.aboutusb:active{
+
+  background-color: rgb(10, 82, 237);
+  color: rgb(255, 255, 255);
+ }
+.portfoliob:active{
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 82, 237);
+}
+.portfoliob:hover{
+  transform: scale(1.1);
+}
+
+.simpleapp{
+  position: relative;
+  height: fit-content;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 5px;
+  z-index:  1; 
+  margin-top: -70px;
+  background-color: white;
+  box-shadow: 0 3px 5px -2px    rgb(26, 25, 25);
+  transition: transform 0.5s ease;
+}
+.simpleapp:hover{
+  
+  transform: scale(1.05) ;
+}
+
+.simpleapp img{
+  margin-top: 10px;
+ width: 30%;
+ margin-left: 35%;
+ transition: transform 0.5s ease;
+}
+
+.simpleapp img:hover{
+  transform: scale(1.1) ;
+}
+.simpleapp h5{
+  margin-top: 20px;
+  text-align: center;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.simpleapp h2{
+  margin-top: 5px;
+  display: flex;
+  width: 50%;
+  margin: auto;
+ justify-content: center;
+text-align: center !important;
+  border-bottom: 5px grey !important;
+  color: grey;
+  text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;;
+}
+.simpleapp h1{
+  margin-top: 5px;
+  text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;;
+}
+
+#navbar-brand{
+  color:  rgb(1, 74, 147) !important;
+}
+#icon1 {
+  color: rgb(1, 74, 147) !important;
+}
+
+.mangeheight{
+  margin-top: 0%;
+  z-index: 1;
+
+ 
+}
+#imge1{
+  margin-left: 3%;
+}
+.navbar{
+  margin-top: 10px;
+  width: 90%;
+  margin: auto;
+  margin-left: 0%;
+  transition: display 0.5s ease;
+}
+#navbar1 {
+  transition: top 0.8s ease;
+  z-index: 10;
+  position: fixed;
+  left: 5% ;
+  width:90%;
+  margin-left: 10%;
+  top: -200px ;
+  box-shadow: 0px 2px 4px rgb(47, 44, 44);
+  margin: auto;
+  background-color: white !important;
+  border-radius: 40px !important;
+}
+#nav-item {
+  color:  rgb(1, 74, 147) !important;
+
+}
+#nav-item a:hover{
+  background-color: rgb(1, 74, 147) !important;
+color: white !important;
+}
+.navbar-brand{
+ font-weight: 600;
+ margin-left: 10px;
+ text-align: center;
+}
+.mobileimg img{
+  position: static;
+  height: 500px;
+  width: 600px;
+  float: right;
+  margin-right:  8%; 
+  margin-top: 60px;
+  opacity: 80%;
+  
+}
+
+
+.mainheading{
+  margin-left: 6%;
+  line-height: 20px;
+  margin-top: 200px;
+  text-shadow: 0px 2px 4px black;
+  display: block;
+  color: white;
+  float: left;
+  width: fit-content;
+  font-family: "Roboto Slab", serif;
+  }
+  .h1simple h1{
+   transition: transform 0.5s ease;
+    font-size: 50px;
+    z-index: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-decoration: none;
+  }
+  .h1simple h1:hover{
+    transform: scale(1.1);
+  }
+  .h3simple h3{
+    position: relative;
+margin-top: 25px;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(226, 223, 223);
+padding-bottom: 4px;
+  }
+.collapse{
+  display: inline-block;
+}
+
+.navbar-brand{
+  color: white !important;
+  margin-top: 14px;
+}
+
+.navbar-nav{
+ 
+margin-left: 40%;
+width: 400px;
+font-weight: 700;
+}
+.nav-item{
+  
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.nav-item a{
+  padding-bottom: -5px;
+
+  position: relative !important;
+  color: white !important;
+}
+
+.nav-item a:hover{
+  transform: scale(1.1);
+  background-color: rgb(246, 246, 246) !important;
+  color: rgb(5, 117, 230) !important;
+  border-radius: 10px  ;
+  border: 1px solid white;
+  padding: -2px;
+}
+
+.h3simple h3::before {
+  content: '';
+  position: absolute;
+
+  width: 100%;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+  right: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.h3simple h3:hover::before {
+
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.imge{
+  margin-left: 15%;
+  display: flex;
+}
+
+
+.navbar-toggler  {
+color: white;
+
+}
+.fa{
+  font-size: 25px;
+  color: white;
+}
+
+
+.body {
+  height: 700px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  z-index: 1;
+  background: linear-gradient(to right, rgb(1, 24, 104), rgb(5, 103, 200));
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-image: url('../Asset/pexels-eren-li-7241330.jpg'); /* Replace 'your_background_image.jpg' with the path to your image */
+  background-size: cover;
+ 
+  opacity: 0.15;
+  z-index: 0; /* Set it behind all content */
+}
+
+@media all and (min-width:1320) {
+  .simpleapp h2{
+    margin-top: 5px;
+    position: relative !important;
+    left: 25% !important;
+
+    border-bottom: 5px grey !important;
+    color: grey;
+    text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;;
+  }
+  .mobileimg img{
+    height: 350px;
+    width: 400px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 70px;
+    
+    
+  }
+}
+
+@media all and (min-width:1048) {
+  .simpleapp h2{
+    
+  
+
+    width: 100%;
+    text-align: center !important;
+  }
+  
+}
+@media all and (max-width:1320px) {
+  .navbar{
+    margin-left: -5%;
+  }
+  .body{
+    height: 600px;
+    
+  }
+  body::before {
+    height: 600px;
+  }
+  .mobileimg img{
+    height: 350px;
+    width: 400px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 70px;
+    
+    
+  }
+  .mainheading{
+    margin-left: 8%;
+    margin-top: 200px;
+  }
+  .h1simple h1{
+    font-size: 45px;
+  }
+  .h3simple h3{
+    font-size: 20px;
+margin-top: 15px;
+  }
+  .navbar-nav{
+  
+width: 600px;
+  }
+  
+}
+@media (max-width: 950px) {
+  .aboutusb{
+    font-size: large;
+  }
+  .portfoliob{
+    font-size: large;
+  }
+  .navbar-nav {
+    margin-left: 0 !important;
+    text-align: center;
+    margin-top: 10px;
+    padding: 2px;
+    width: 80% !important;
+    margin: auto !important;
+
+  }
+  .nav-item a:hover{
+    transform: scale(1);
+    background-color: rgb(246, 246, 246) !important;
+    color: rgb(5, 117, 230) !important;
+    border-radius: 10px  ;
+    border: 1px solid white;
+    padding: -2px;
+  }
+
+  .body{
+    height: 400px;
+    
+  }
+  body::before {
+    height: 400px;
+  }
+  .navbar{
+    margin-left: 5%;
+  }
+  .mobileimg img{
+    height: 200px;
+    width: 250px;
+    float: right;
+    margin-right:  6%; 
+    margin-top: 50px;
+    
+    
+  }
+  .simpleapp h5{
+    margin-top: 10px;
+    font-size: large;
+  
+  }
+  .simpleapp h2{
+    margin-top: 5px;
+    font-size: x-large;
+ 
+  }
+  .simpleapp h1{
+    margin-top: 7px;
+    font-size: xx-large;
+  }
+  .mainheading{
+    margin-left: 7%;
+    margin-top: 100px;
+  }
+  .h1simple h1{
+    font-size: 35px;
+  }
+  .h3simple h3{
+    font-size: large;
+    margin-top: 15px;
+  }
+  .nav-item{
+    width:80% !important;
+    display: flex;
+    flex-direction: column;
+   
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    background-color: rgb(39, 37, 37);
+    border-bottom: 0.5px solid rgb(254, 254, 254);
+    font-size: 15px;
+  }
+  #nav-item {
+    color: white !important;
+  }
+  .navborder{
+    border-radius: 10px;
+  }
+ #nav-item1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+  }
+  #nav-item2 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 0;
+  }
+  .imge{
+    margin-left: 5%;
+  display: flex;
+
+  }
+  .navbar-toggler-icon{
+    margin-top: 4px;
+    text-shadow: 0;
+  }
+  .imge img{
+    height: 50px;
+  }
+  
+.navbar-brand{
+  color: white !important;
+  margin-top: 4px;
+  font-size: 16px;
+}
+}
+@media all and (max-width:723px) {
+  
+  .mobileimg img{
+width: 50%;
+margin: auto;
+    align-items: center;
+    margin-right: 20% !important;
+
+    margin-top: 40px !important;
+    
+  }
+  .mobileimg{
+    width: 100%;
+    margin: auto  ;
+    justify-content: center !important;
+  }
+  .body{
+    height: 500px;
+    
+  }
+  body::before {
+    height: 500px;
+  }
+  .mainheading{
+    margin-left: 5% !important;
+    margin-top: 40px !important;
+  }
+  .h1simple h1{
+    font-size: 25px !important;
+  }
+  .h3simple h3{
+    font-size: 15px !important;
+margin-top: 15px !important;
+  }
+}
+@media all and (max-width:464px) {
+  .aboutusb{
+    font-size: small;
+  }
+  .portfoliob{
+    font-size: small;
+  }
+  .mobileimg img{
+    height: 200px !important;
+    width: 250px !important;
+    align-items: center;
+    margin-right: 20% !important;
+    
+    
+    margin-top: 20px !important;
+    
+  }
+  .body{
+    height:600px
+  }
+  body::before {
+    height: 600px;
+  }
+  #imge1{
+    margin-left:-5px ;
+  }
+  .simpleapp img{
+    margin-top: 10px;
+   width: 50%;
+   margin-left: 25%;
+  }
+  .mainheading{
+    margin-left: 5% !important;
+    margin-top: 40px !important;
+  }
+  .h1simple h1{
+    font-size: 25px !important;
+  }
+  .imge{
+    margin-left: 5%;
+  }
+  .h3simple h3{
+    font-size: 15px !important;
+margin-top: 15px !important;
+  }
+}
+.data{
+  position: relative;
+  opacity: 0;
+  transform: translateY(100px);
+transition: all 1.5s ease;
+}
+.data.active{
+  opacity: 1;
+  transform: translateY(0);
+}
